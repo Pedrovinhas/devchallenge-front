@@ -1,6 +1,6 @@
 <div align="center">
  <h1> DevChallenge </h1>
- <img width="60%" src="./github/banner.png"/>
+ <img width="70%" src="./github/banner.png"/>
 </div>
 
 ## Challenge 1 - Grab
@@ -12,14 +12,26 @@
 ### ⚙ Code
 [Grab](https://github.com/Pedrovinhas/devchallenge-front/tree/master/grab)
 
-[X]- HTML
+### 🎉 Goals 
 
-[X]-CSS
-
-- [X]  CSS
-
+- [X] HTML
+- [X] CSS
 - [ ]  Form validation
 
+## Challenge 2 - WiseGoat
+
+### ☄ Level
+
+**Begginer**
+
+### ⚙ Code
+[WiseGoat](https://github.com/Pedrovinhas/devchallenge-front/tree/master/wise-goat)
+
+### 🎉 Goals 
+
+- [X] HTML
+- [X] CSS
+- [ ] Fetch API
 
 ---
 
