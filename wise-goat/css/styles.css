@@ -31,7 +31,8 @@ body {
 
 .img {
     max-width: 400px;
-    transform: translateY(-50px);
+    left: 100px;
+    transform: translateY(-40px);
 
     animation-name: floating;
     animation-duration: 3s;
@@ -75,7 +76,7 @@ h2 {
 
 a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 200%;
     font-weight: bold;
 
     color: white;
@@ -90,10 +91,20 @@ a {
 
 
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        flex-direction: column;
+    }
+
     .img {
-        display: none;
-       
+        width: 50%;
+        left: -10px;
+        bottom: -50px;
     }
 }
 

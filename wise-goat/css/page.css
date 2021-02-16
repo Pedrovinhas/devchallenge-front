@@ -113,18 +113,14 @@ h2 {
 }
 
 p#frase {
-    font-size: 3rem;
+    font-size: 200%;
     font-weight: bold;
-    
+    margin: 30px;
     
     color:#72005F;
 }
 
-p#frase2 {
-    margin-top: 16px;
-    font-size: 2.2rem;
-    color: #BAA193;
-}
+
 
 
 
@@ -139,11 +135,18 @@ p#frase2 {
         align-items: center;
 	}
 
-    .postcard:before {
-        width: 100%;
-    }
-
     .postcard img {
         display: none;
+    }
+
+    .frase {
+        width: 10000%;
+        height: 60vh;
+
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px solid #ccc;
     }
 }
