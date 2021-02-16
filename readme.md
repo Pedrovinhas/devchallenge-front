@@ -5,17 +5,17 @@
 
 ## Challenge 1 - Grab
 
-### Level
+### ☄ Level
 
-Begginer
+**Begginer**
 
-### Goals 🎉
+### 🎉 Goals 
 
-[X] - HTML
+- [X]  HTML
 
-[X] - CSS
+- [X]  CSS
 
-[ ] - Form validation
+- [ ]  Form validation
 
 
 ---
