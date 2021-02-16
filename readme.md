@@ -11,9 +11,9 @@ Begginer
 
 ### Goals 🎉
 
-[X] - HTML
+[X]- HTML
 
-[X] - CSS
+[X]-CSS
 
 [ ] - Form validation
 
