@@ -1,6 +1,6 @@
 <div align="center">
  <h1> DevChallenge </h1>
- <img width="60%" src="./github/banner.png"/>
+ <img width="100%" src="./github/banner.png"/>
 </div>
 
 ## Challenge 1 - Grab
@@ -31,7 +31,7 @@
 
 - [X] HTML
 - [X] CSS
-- [] Fetch API
+- [ ] Fetch API
 
 ---
 
