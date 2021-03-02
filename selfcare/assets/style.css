@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +32,7 @@ nav {
     font-weight: bold;
     font-size: 18px;
     padding-left: 5px;
+    color: #161616;
 }
 
 .logo i {
@@ -47,6 +46,7 @@ nav {
 
 .menu i {
     padding: 5px;
+    color: #ADDE87;
 }
 
 .banner {
@@ -59,16 +59,19 @@ nav {
     height: 100px;
     display: flex;
     align-items: center;
-    border-bottom: .1px solid #A5A1A1;
+    border-bottom: 0.1px solid #A5A1A1;
     justify-content: space-between;
 
 }
 
+p:nth-of-type(2n){
+    margin-right: 20px;
+}
 .promotion p {
     font-size: 24px;
-    text-transform: uppercase;
     font-weight: 700;
     margin-left: 30px;
+    color: #161616;
 }
 
 .container {
@@ -89,6 +92,20 @@ nav {
     padding: 20px 36px;
 }
 
+.content p {
+    padding-top: 10px;
+    font-weight: 700;
+    color: #161616;
+    font-size: 18px;
+
+
+}
+
+.content span {
+    font-weight: 700;
+    color:#5CA720;
+}
+
 .container img {
     width: 250px;
     height: 250px;
@@ -99,8 +116,10 @@ nav {
 .info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #F9F9F9;
+    height: 200px;
+    flex-wrap: wrap;
 }
 
 .info ul {
@@ -117,4 +136,96 @@ nav {
 
 .newsletter {
     padding-right: 30px;
+}
+
+.newsletter span {
+    font-weight: 700;
+    
+}
+
+.email {
+    padding-top: 10px;
+    display:flex;
+}
+
+.email input {
+    border: .5px solid #A5A1A1;
+    width: 397px;
+    font-size: 18px;
+
+}
+
+button {
+    margin: 0;
+    height: 54px;
+    width: 150px;
+    background-color:#5CA720;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+button::placeholder {
+    color: #A5A1A1;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+footer .icons {
+    margin-left: 30px;
+}
+
+.money img {
+    width: 25px;
+    margin: 5px;
+}
+
+/* Reponsividade */
+
+@media screen and (max-width: 768px) {
+
+    .info {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .info {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newsletter {
+        margin-top: 20px;
+        width: 185px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div .email {
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .email input {
+        width: 150px;
+    }
+
 }
