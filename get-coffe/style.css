@@ -1,0 +1,152 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+:root {
+    --black: #242424;
+    --yellow: #FCA60F;
+    --brown: #C95E20;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    margin-left: 90px;
+}
+
+.menu-nav ul {
+    display:flex;
+}
+
+.menu-nav li {
+    margin-right: 20px;
+    list-style:none;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.right, .left {
+    width: 50%;
+    height: 100vh;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.left {
+    flex-direction: column;
+}
+
+.left p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.left button {
+    align-self: center;
+    padding: 10px 45px;
+    background: var(--yellow);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left ul {
+    list-style: none;
+    display:flex;
+}
+
+.left li {
+    padding: 20px 10px 0px 5px;
+}
+
+ 
+.left .forma2 {
+    position: absolute;
+    left: -150px;
+    top: 120px;
+    background: transparent;
+    z-index: -5;
+
+}
+
+.right .forma {
+    position: absolute;
+    right: -90px;
+    top: 90px;
+    z-index: -5;
+}
+
+.center {
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    align-self:flex-end;
+}
+
+/* Reponsividade */
+
+@media (max-width:768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right, .center {
+        display: none;
+    }
+
+    .left {
+        display:flex;
+        align-items: center;
+        justify-self: center;
+
+        margin: 0 auto;
+    }
+
+    .content {
+        display:flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+}
