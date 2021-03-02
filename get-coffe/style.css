@@ -149,4 +149,9 @@ header {
         margin: 0 auto;
     }
 
+    .sociais {
+        position: absolute;
+        bottom: 10px;
+    }
+
 }
