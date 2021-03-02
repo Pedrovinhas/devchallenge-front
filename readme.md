@@ -12,11 +12,11 @@
 ### ⚙ Code
 [Grab](https://github.com/Pedrovinhas/devchallenge-front/tree/master/grab)
 
-### 🎉 Goals 
+### 🎉 Skills
 
 - [X] HTML
 - [X] CSS
-- [ ]  Form validation
+- [ ]  Form Validation
 
 ## Challenge 2 - WiseGoat
 
@@ -27,11 +27,14 @@
 ### ⚙ Code
 [WiseGoat](https://github.com/Pedrovinhas/devchallenge-front/tree/master/wise-goat)
 
-### 🎉 Goals 
+### 🎉 Skills 
 
 - [X] HTML
 - [X] CSS
-- [ ] Fetch API
+- [X] JavaScript
+- [X] Fetch API
+- [X] DOM Manipulation
+- Precisamos fazer o Fetch de uma API de conselhos e trazer o objeto para dentro de um card.
 
 ---
 
