@@ -3,57 +3,30 @@
  <img width="70%" src="./github/banner.png"/>
 </div>
 
-## 🆓 Challenge 1 - Grab
+## ✋ Challenge 1 - [Grab](https://github.com/Pedrovinhas/devchallenge-front/tree/master/grab)
 
-### ☄ Level
+### 🥉 Level
 
-**Begginer**
-
-### ⚙ Code
-[Grab](https://github.com/Pedrovinhas/devchallenge-front/tree/master/grab)
-
-### 🎉 Skills
-
-- [X] HTML
-- [X] CSS
-- [ ]  Form Validation
+**Iniciante**
 
 ## 🐐 Challenge 2 - [WiseGoat](https://github.com/Pedrovinhas/devchallenge-front/tree/master/wise-goat)
 
-### ☄ Level
+### 🥉 Level
 
-**Begginer**
+**Iniciante**
 
 
-## 💅 Challenge 3 - selfcare
+## 🍀 Challenge 3 - [selfcare](https://github.com/Pedrovinhas/devchallenge-front/tree/master/selfcare)
 
-### ☄ Level
+### 🥉 Level
 
-**Begginer**
+**Iniciante**
 
-### ⚙ Code
-[selfcare](https://github.com/Pedrovinhas/devchallenge-front/tree/master/selfcare)
+## ☕ Challenge 4 - [getcoffee](https://github.com/Pedrovinhas/devchallenge-front/tree/master/get-coffe)
 
-### 🎉 Skills 
+### 🥉 Level
 
-- [X] HTML
-- [X] CSS
-  - [x] CSS Grid
-
-## ☕ Challenge 4 - getcoffee 
-
-### ☄ Level
-
-**Begginer**
-
-### ⚙ Code
-[getcoffee](https://github.com/Pedrovinhas/devchallenge-front/tree/master/get-coffe)
-
-### 🎉 Skills 
-
-- [X] HTML
-- [X] CSS
-
+**Iniciante**
 
 ---
 
