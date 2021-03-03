@@ -1,4 +1,4 @@
-<h1 align="center">✋ get-coffee </h1>
+<h1 align="center">☕ get-coffee </h1>
 
 ### 🎉 Skills 
 
