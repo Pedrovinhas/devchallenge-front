@@ -18,23 +18,12 @@
 - [X] CSS
 - [ ]  Form Validation
 
-## 🐐 Challenge 2 - WiseGoat
+## 🐐 Challenge 2 - [WiseGoat](https://github.com/Pedrovinhas/devchallenge-front/tree/master/wise-goat)
 
 ### ☄ Level
 
 **Begginer**
 
-### ⚙ Code
-[WiseGoat](https://github.com/Pedrovinhas/devchallenge-front/tree/master/wise-goat)
-
-### 🎉 Skills 
-
-- [X] HTML
-- [X] CSS
-- [X] JavaScript
-- [X] Fetch API
-- [X] DOM Manipulation
-- Precisamos fazer o Fetch de uma API de conselhos e trazer o objeto para dentro de um card.
 
 ## 💅 Challenge 3 - selfcare
 
