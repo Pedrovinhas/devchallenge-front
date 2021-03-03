@@ -5,7 +5,7 @@
        
   <img  width="800px" src="https://github.com/Pedrovinhas/devchallenge-front/blob/master/wise-goat/design/page%202.png">
        
-  <div>
+  </div>
 
 ## 🎉 Habilidades desenvolvidas
 
